@@ -21,7 +21,7 @@ public class GoodsApp {
 		}
 		
 		for (int i = 0; i < COUNT_GOODS; i++) {
-			 System.out.println(goods[i].getName() +"(가격:"+ goods[i].getPrice() +")이" + goods[i].getCountStock() + "개 입고 되었습니다." );
+			 System.out.println(goods[i].getName() +"(가격:"+ goods[i].getPrice() +")이 " + goods[i].getCountStock() + "개 입고 되었습니다." );
 		}
 		
 		// 자원정리
